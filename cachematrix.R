@@ -7,8 +7,8 @@
 # Here are the functions that are returned:
 # The set function sets the value of a matrix.
 # The get function returns the value of the matrix.
-# The setInv function sets the value of the inverse matrix.
-# The getInv function returns the inverse matrix.
+# The setinverse function sets the value of the inverse matrix.
+# The getinverse function returns the inverse matrix.
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
 	set <- function(y) {
